@@ -1,0 +1,24 @@
+﻿Build started 20/04/2016 16:18:05.
+     1>Project "C:\Users\jserrano\Documents\GitHub\ClubProgramacio\TicTacToe\TicTacToe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt TicTacToe_TOFILL.cpp TicTacToe.cpp
+         TicTacToe.cpp
+         TicTacToe_TOFILL.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jserrano\Documents\GitHub\ClubProgramacio\x64\Debug\TicTacToe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\jserrano\Documents\GitHub\ClubProgramacio\x64\Debug\TicTacToe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jserrano\Documents\GitHub\ClubProgramacio\x64\Debug\TicTacToe.lib" /MACHINE:X64 x64\Debug\TicTacToe_TOFILL.obj
+         x64\Debug\TicTacToe.obj
+     1>TicTacToe.obj : error LNK2005: "enum GameState __cdecl CheckWin(void)" (?CheckWin@@YA?AW4GameState@@XZ) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "void __cdecl DoLogic(void)" (?DoLogic@@YAXXZ) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "void __cdecl DrawBoard(void)" (?DrawBoard@@YAXXZ) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: main already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "char * gameBoard" (?gameBoard@@3PADA) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "int player" (?player@@3HA) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "char mark" (?mark@@3DA) already defined in TicTacToe_TOFILL.obj
+     1>TicTacToe.obj : error LNK2005: "enum GameState gameState" (?gameState@@3W4GameState@@A) already defined in TicTacToe_TOFILL.obj
+     1>C:\Users\jserrano\Documents\GitHub\ClubProgramacio\x64\Debug\TicTacToe.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\jserrano\Documents\GitHub\ClubProgramacio\TicTacToe\TicTacToe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.84
